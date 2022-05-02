@@ -1,0 +1,24 @@
+nav {
+  padding-bottom: 50px;
+}
+
+nav a {
+  position: relative;
+  padding: 40px 40px 10px 40px;
+  margin: 15px;
+  font-size: 30px;
+  background-color: rgb(137, 198, 251);
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  position: relative;
+  background-color: rgb(182, 219, 251);
+  text-decoration: underline;
+  color: black;
+}
+
+nav a.active {
+  color: black;
+  text-decoration: underline;
+}
